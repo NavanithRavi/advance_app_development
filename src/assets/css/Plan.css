@@ -1,0 +1,153 @@
+
+/* Container styles */
+.RechargePlanPage__recharge-plan-container {
+    display: flex;
+    align-items: flex-start; 
+    /* justify-content: space-between; */
+    width: 100%; /* 100% of viewport width */
+    height: 100vh; /* 100% of viewport height */
+    padding: 40px;
+    background-color: #e5f0e7;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    /* overflow: auto;  */
+}
+
+/* Styles for left container */
+.recharge-container {
+    /* flex: 1; */
+    padding: 30px; /* Adjust padding to your preference */
+    background-color: #ffffff; /* White background color */
+    border: 1px solid #e0e0e0; /* Light gray border */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+    width: 500px;
+    height: 500px;
+    margin-left: 200px;
+}
+.recharge-container h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Input field styles specific to recharge-container */
+.recharge-container .input-field {
+    margin-bottom: 20px;
+}
+
+.recharge-container .input-field label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.recharge-container .input-field input,
+.recharge-container .input-field select {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+/* Button styles specific to recharge-container */
+.recharge-container button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.recharge-container button:hover {
+    background-color: #0056b3;
+}
+
+/* Title styles */
+.RechargePlanPage__recharge-plan-container h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* List styles */
+.RechargePlanPage__recharge-plan-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Styles for right container */
+.RechargePlans {
+    /* flex: 1; */
+    background-color: #e9eef4;
+    padding: 20px;
+    width: 600px;
+    height:80vh;
+    margin-left: 100px;
+    border: 1px solid #e0e0e0; /* Light gray border */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+    /* margin-left: 20px;  */
+}
+
+
+/* List item styles */
+.RechargePlanPage__recharge-plan-container li {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    padding: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover effect for list items */
+.RechargePlanPage__recharge-plan-container li:hover {
+    background-color: #f9f9f9;
+    transform: scale(1.05);
+}
+
+/* Plan name styles */
+.RechargePlanPage__recharge-plan-container strong {
+    font-size: 24px;
+    color: #007bff; /* Blue color for plan names */
+}
+
+/* Selected plan indicator styles */
+.RechargePlanPage__recharge-plan-container span.selected-indicator {
+    color: #28a745; /* Green color for selected plan indicator */
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+/* Style for user-input container */
+.user-input {
+    margin-bottom: 20px;
+}
+
+/* Style for user-details-container */
+.user-details-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* Style for user-card container */
+.user-card {
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    width: 45%; /* Adjust the width as needed */
+}
+
+/* Style for user-input container */
+.user-input {
+    margin-bottom: 20px;
+}

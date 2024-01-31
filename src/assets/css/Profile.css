@@ -1,0 +1,61 @@
+/* UserProfile.css */
+
+.profile-card {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.profile-card h2 {
+  color: #333;
+}
+
+.profile-card div {
+  margin-bottom: 10px;
+}
+
+.profile-card label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.profile-card input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.profile-card button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.profile-card button:hover {
+  background-color: #45a049;
+}
+
+.dashboard-section {
+  margin-top: 20px;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+}
+
+.dashboard-section h3 {
+  color: #333;
+}
+
+.dashboard-section p {
+  margin-bottom: 10px;
+}
+
+.dashboard-section strong {
+  color: #4caf50;
+}

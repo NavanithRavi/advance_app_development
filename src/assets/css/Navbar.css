@@ -1,0 +1,43 @@
+/* src/styles/navbar.css */
+
+body{
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between; /* Aligns items at the start and end of the flex container */
+  background-color: #080a13;
+  padding: 12px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a {
+  text-decoration: none;
+  color: #f2f3f0;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #555555;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  nav {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  nav a {
+      margin-top: 1px;
+      margin-right: 0; /* Remove right margin for responsiveness */
+  }
+}
+
+.icon {
+  margin-left: auto; /* Pushes the .icon to the right */
+}
